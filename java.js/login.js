@@ -11,7 +11,7 @@ document.getElementById('btn').addEventListener('click',function(){
     //match number and pin
     if(contactNum=='00000000000' && pin=='0000'){
         alert('login successful')
-        window.location.assign("/home.html");
+        window.location.assign("./home.html");
     }
     else{
         alert('password or number error')
